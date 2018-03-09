@@ -138,6 +138,9 @@ module.exports = {
 		'no-useless-return': 'error',
 		'no-whitespace-before-property': 'error',
 		'no-with': 'error',
+		'object-curly-newline': ['error', {
+			'multiline': true
+	    }]
 		'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
 		'one-var': ['error', { 'initialized': 'never' }],
 		'operator-linebreak': ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
