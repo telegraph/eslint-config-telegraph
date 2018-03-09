@@ -14,7 +14,7 @@ Within your [eslint config file](https://eslint.org/docs/user-guide/configuring#
 
 ```json
 {
-  "extends": "telegraph"
+  "extends": "@telegraph-engineering/eslint-config-telegraph"
 }
 ```
 
