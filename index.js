@@ -139,9 +139,10 @@ module.exports = {
 		'no-whitespace-before-property': 'error',
 		'no-with': 'error',
 		'object-curly-newline': ['error', {
-			'multiline': true
-	    }],
-		'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
+			'ObjectExpression': 'always',
+			'ObjectPattern': { 'multiline': false }
+		}],
+		'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': false }],
 		'one-var': ['error', { 'initialized': 'never' }],
 		'operator-linebreak': ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
 		'padded-blocks': ['error', { 'blocks': 'never', 'switches': 'never', 'classes': 'never' }],
