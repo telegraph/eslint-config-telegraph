@@ -32,7 +32,7 @@ module.exports = {
 			'exports': 'never',
 			'functions': 'never'
 		}],
-		'comma-spacing': ['error', { 'before': false, 'after': true }],
+		'comma-spacing': ['error', { 'before': true, 'after': true }],
 		'comma-style': ['error', 'last'],
 		'constructor-super': 'error',
 		'curly': ['error', 'multi-line'],
