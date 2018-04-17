@@ -143,6 +143,7 @@ module.exports = {
 			'ObjectPattern': { 'multiline': false }
 		}],
 		'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': false }],
+		"object-shorthand": ["error", "never"],
 		'one-var': ['error', { 'initialized': 'never' }],
 		'operator-linebreak': ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
 		'padded-blocks': ['error', { 'blocks': 'never', 'switches': 'never', 'classes': 'never' }],
