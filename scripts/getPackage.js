@@ -1,2 +1,2 @@
 const pacakgeJson = require('../package.json');
-console.log(pacakgeJson.version)
+console.log(pacakgeJson.version);
