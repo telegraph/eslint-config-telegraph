@@ -1,6 +1,6 @@
 {
   "name": "@telegraph-engineering/eslint-config-telegraph",
-  "version": "0.1.4",
+  "version": "0.1.3",
   "description": "Telegraph Engineering config for eslint",
   "main": "index.js",
   "scripts": {
