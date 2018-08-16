@@ -37,7 +37,6 @@ module.exports = {
 		'comma-style': ['error', 'last'],
 		'constructor-super': 'error',
 		'curly': ['error', 'multi-line'],
-		'object-curly-spacing': ["error", "always"],
 		'dot-location': ['error', 'property'],
 		'eol-last': 'error',
 		'eqeqeq': ['error', 'always', { 'null': 'ignore' }],
@@ -144,6 +143,7 @@ module.exports = {
 			'ObjectExpression': 'always',
 			'ObjectPattern': { 'multiline': false }
 		}],
+		'object-curly-spacing': ["error", "always"],
 		'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': false }],
 		"object-shorthand": ["error", "never"],
 		'one-var': ['error', { 'initialized': 'never' }],
