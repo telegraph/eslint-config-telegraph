@@ -6,7 +6,7 @@ jobs:
     script: echo "Deploying to npm ..."
     deploy:
       provider: npm
-      email: telegraph.engineering@telepgraph.co.uk
+      email: telegraph.engineering@telegraph.co.uk
       api_key:
         secure: JlOj9Ry4WBCy6qxdIOQUZP+lFAQh223eW3pPUp2abx9cFuoue0YRgOYV7LlcuuskyXbAzs0NlV4dMwfRDdjO1nuS2z+Zje7+EiuACtACK4z+GeFneaQynwircpFPkiEGthQZL9WImInLxbl2Z6G23EKjrB6znRMMIKISC8MM9cgeIPzIYYi3QPD5W+WzN2la+Z4KUjnU9CfDTX0Yb/CYeOuw2O4cF6e6JOOPhScMUCia5O+DSEmQHHZHk/Mbdi97DKLbof0ygi11nZDZWFp+fSS10VCSobVG3VCBbDZDYLNin4dZhCTmVMKC6iM86pGAcayb5BABDv4/beygW4xoQv+7fPwf1487EWZ4TvJ2AKWb/d95Hc7Q1/wrmEJ9gWcqmzDT5Vnr8sUlZkxrxIfz6WHq/kOoPVqt40QCRe8+7yqxmYkTQveiRfymg6C/wMwqxeoq/o06b94v7u68VHVwFgNxywb9jqwV5/8juu3t+171Qka6FMi8CbKMSOtQINogEHGJfaspw8lA5dByeOMQhr1FXZyiBU1Lnhqa9ySP1NAnNczSatcC8rS02ylB8wn/L35AkfxHWlX+QW3fQeycIhNd7lTppYPDxFE42mzqYRFHPbtVtEVYd64cq7YMqS50VfiNq8xfTZJVHyGppQ81UN6S/4KT+2nPRJ2IOW5TWyY=
       on:
