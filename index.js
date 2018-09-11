@@ -143,6 +143,7 @@ module.exports = {
 			'ObjectExpression': 'always',
 			'ObjectPattern': { 'multiline': false }
 		}],
+		'object-curly-spacing': ["error", "always"],
 		'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': false }],
 		"object-shorthand": ["error", "never"],
 		'one-var': ['error', { 'initialized': 'never' }],
