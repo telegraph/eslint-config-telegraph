@@ -48,6 +48,7 @@ module.exports = {
 		'keyword-spacing': ['error', { 'before': true, 'after': true }],
 		'new-cap': ['error', { 'newIsCap': true, 'capIsNew': false }],
 		'new-parens': 'error',
+		'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 2 }],
 		'no-array-constructor': 'error',
 		'no-caller': 'error',
 		'no-class-assign': 'error',
