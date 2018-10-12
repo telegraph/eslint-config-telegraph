@@ -157,7 +157,7 @@ module.exports = {
 		'semi-spacing': ['error', { 'before': false, 'after': true }],
 		'space-before-blocks': ['error', 'always'],
 		'space-before-function-paren': ['error', 'always'],
-		'space-in-parens': ['error', 'always', { 'exceptions': ['[]', 'empty', '{}'] }],
+		'space-in-parens': ['error', 'always', { 'exceptions': ['empty'] }],
 		'space-infix-ops': 'error',
 		'space-unary-ops': ['error', { 'words': true, 'nonwords': false }],
 		'spaced-comment': ['error', 'always'],
