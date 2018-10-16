@@ -75,6 +75,7 @@ module.exports = {
 		'no-floating-decimal': 'error',
 		'no-func-assign': 'error',
 		'no-global-assign': 'error',
+		'no-implicit-globals': 'error',
 		'no-implied-eval': 'error',
 		'no-inner-declarations': ['error', 'functions'],
 		'no-invalid-regexp': 'error',
