@@ -1,6 +1,6 @@
 {
   "name": "@telegraph-engineering/eslint-config-telegraph",
-  "version": "1.6.3",
+  "version": "1.6.2",
   "description": "Telegraph Engineering config for eslint",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,13 @@
   },
   "homepage": "https://github.com/telegraph/eslint-config-telegraph#readme",
   "devDependencies": {
-    "@eslint/js": "^9.7.0",
-    "eslint": "^9.7.0",
-    "globals": "^15.8.0"
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.25.0"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-standard": "^4.1.0"
   }
 }
