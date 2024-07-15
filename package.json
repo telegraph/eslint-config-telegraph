@@ -28,7 +28,7 @@
     "globals": "^15.8.0"
   },
   "peerDependencies": {
-    "eslint": "^7.25.0"
+    "eslint": "^9.7.0"
   },
   "dependencies": {
     "eslint-plugin-import": "^2.22.1",
